@@ -1,0 +1,165 @@
+{
+  "translation": {
+    "nav": {
+      "about": "About",
+      "stack": "Stack",
+      "projects": "Projects",
+      "journey": "Journey",
+      "contact": "Contact"
+    },
+    "hero": {
+      "location": "Ribeirão Preto, Brazil",
+      "description": "Software Engineer specialized in backend systems, distributed architectures, and cloud infrastructure. I design reliable, scalable services from data modeling to the cloud infrastructure that runs them, using front-end tooling to guarantee full product autonomy.",
+      "role": "Backend & Cloud Infrastructure",
+      "view_projects": "View projects",
+      "resume": "Resume"
+    },
+    "stats": {
+      "years": "years building software",
+      "degree": "Computer Science",
+      "international": "international experience"
+    },
+    "about": {
+      "title": "About",
+      "lead": "I enjoy problems where product, code, and infrastructure meet.",
+      "p1": "As a Software Engineer, my focus is on backend systems, distributed architectures, and cloud infrastructure. I have experience building scalable services using Node.js and cloud ecosystems (GCP and AWS), prioritizing reliability through microservices and event-driven communication.",
+      "p2": "I complement my technical foundation with strong hands-on experience in Infrastructure as Code (IaC) and CI/CD automation to ensure secure and reproducible deliveries. Regarding the end-to-end product, while my specialty lies in architecting and maintaining the core, I can navigate the front-end to unblock development and ensure the entire integrated flow works seamlessly.",
+      "p3": "I value working in teams that treat software as a long-term product, where technical quality and clear communication are as valuable as speed. This ownership mentality has been with me since co-founding a junior enterprise at university, and continues to drive my day-to-day work building critical platforms."
+    },
+    "stack": {
+      "title": "Stack",
+      "lead": "Tools I use daily, organized by layer.",
+      "groups": {
+        "Linguagens": "Languages",
+        "Front-end": "Front-end",
+        "Back-end": "Back-end",
+        "Tecnologias": "Technologies & Cloud"
+      }
+    },
+    "projects": {
+      "title": "Projects",
+      "lead": "Selected works across product, cloud, and research.",
+      "items": {
+        "p1": {
+          "name": "BSS Microservices & Orchestration",
+          "summary": "Design and implementation of domain-agnostic microservices for a telecommunications platform, using event-driven architecture for scalable and asynchronous processing.",
+          "role": "Backend • Wave"
+        },
+        "p2": {
+          "name": "Cloud Infrastructure & Automation",
+          "summary": "Environment provisioning on Google Cloud Platform via Terraform and Pulumi, standardizing multi-tenant deployments and automating CI/CD pipelines for higher reliability.",
+          "role": "Cloud • Wave"
+        },
+        "p3": {
+          "name": "Multi-connectivity in sensor networks",
+          "summary": "Extension of the IPv6 stack for simultaneous communication across multiple radio interfaces, with duplicate packet handling and higher fault tolerance in low-power devices.",
+          "role": "Research • TU Braunschweig"
+        },
+        "p4": {
+          "name": "Structuring the OctoBit junior enterprise",
+          "summary": "Creation of the projects directory: scope and requirements processes, technical training tracks, and development team coordination.",
+          "role": "Projects Director • OctoBit Jr."
+        }
+      }
+    },
+    "journey": {
+      "title": "Journey",
+      "lead": "Professional experience and academic background.",
+      "education_title": "Education",
+      "experience": {
+        "e1": {
+          "title": "Mid-Level Software Engineer",
+          "location": "Remote",
+          "date": "Jul/2026 — Present",
+          "bullets": [
+            "Taking technical ownership of core BSS (Business Support Systems) microservices.",
+            "Contributing to technical and architectural decisions, ensuring the evolution of scalable, domain-agnostic solutions across the platform."
+          ]
+        },
+        "e2": {
+          "title": "Junior Software Engineer",
+          "location": "Remote",
+          "date": "Nov/2025 — Jun/2026",
+          "bullets": [
+            "Designed and implemented domain-agnostic microservices in Node.js (TypeScript) across core BSS modules, enabling multi-tenant scalability and seamless client onboarding.",
+            "Built and maintained cloud infrastructure on Google Cloud Platform using Terraform and Pulumi, enabling reproducible deployments and standardized environments across tenants.",
+            "Architected and launched the platform’s subscription billing module, streamlining recurring payments and complex customer lifecycle management.",
+            "Implemented event-driven communication using GCP Pub/Sub, decoupling core services and enabling scalable asynchronous processing across domain pipelines.",
+            "Developed CI/CD pipelines with GitHub Actions, automating build, test, and deployment processes to increase delivery speed and software reliability."
+          ]
+        },
+        "e3": {
+          "title": "Student Research Assistant",
+          "location": "Brunswick, Germany (Hybrid)",
+          "date": "Jul/2024 — Jan/2025",
+          "bullets": [
+            "Implemented a multi-connectivity framework in C for wireless sensor networks, improving data delivery reliability in high-interference environments.",
+            "Designed and implemented an IPv6 extension header for multi-interface communication, enabling duplicate packet handling to reduce packet loss."
+          ]
+        },
+        "e4": {
+          "title": "Co-founder & Project Lead",
+          "location": "Ribeirão Preto, Brazil (Hybrid)",
+          "date": "Aug/2023 — Mar/2024",
+          "bullets": [
+            "Co-founded a student-run software consultancy and structured the engineering delivery process, defining development workflows and project organization.",
+            "Led the technical execution of client projects, translating business requirements into software specifications and coordinating development teams."
+          ]
+        },
+        "e5": {
+          "title": "Web Development Intern",
+          "location": "São Carlos, Brazil (Remote)",
+          "date": "Aug/2021 — Jul/2023",
+          "bullets": [
+            "Developed full-stack features for enterprise insurance and healthcare platforms using Java (Spring Boot) and Angular, contributing to large-scale production systems.",
+            "Reduced cloud infrastructure costs by 10% by auditing AWS resources (Lambda, EC2, S3) and correcting misconfigurations.",
+            "Built an internal management tool using NestJS and Next.js to evaluate a new full-stack architecture, enabling its adoption in subsequent client projects."
+          ]
+        }
+      },
+      "education": {
+        "ed1": {
+          "title": "University of São Paulo - USP",
+          "org": "Bachelor in Computer Science",
+          "location": "Ribeirão Preto, Brazil"
+        },
+        "ed2": {
+          "title": "Technische Universität Braunschweig - TUBS",
+          "org": "Exchange Student — Computer Science",
+          "location": "Braunschweig, Germany"
+        }
+      }
+    },
+    "differentiators": {
+      "title": "Differentiators",
+      "lead": "What I bring to a team.",
+      "items": {
+        "d1": {
+          "title": "Architecture & Distributed Systems",
+          "body": "Solid experience in modeling and building microservices, messaging (Pub/Sub), and asynchronous communication designed for resilience and scalability."
+        },
+        "d2": {
+          "title": "Infrastructure as Code (IaC)",
+          "body": "Deep cloud and CI/CD automation. What goes to production is provisioned via Terraform/Pulumi and managed by reliable pipelines."
+        },
+        "d3": {
+          "title": "End-to-End Product Vision",
+          "body": "I understand the complete software lifecycle. While my focus and expertise lie in backend and infrastructure, I can navigate the front-end with ease to integrate APIs and ensure the final product works flawlessly."
+        },
+        "d4": {
+          "title": "Solid Foundation & Ownership",
+          "body": "Computer Science at USP, international research experience in Germany, and a strong sense of ownership sharpened by founding a junior enterprise."
+        }
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "lead": "Let's build something <1>solid</1> together.",
+      "email": "E-mail",
+      "phone": "Phone"
+    },
+    "footer": {
+      "back_to_top": "Back to top"
+    }
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "translation": {
+    "nav": {
+      "about": "Sobre",
+      "stack": "Stack",
+      "projects": "Projetos",
+      "journey": "Trajetória",
+      "contact": "Contato"
+    },
+    "hero": {
+      "location": "Ribeirão Preto, Brasil",
+      "description": "Engenheiro de Software especializado em sistemas backend, arquiteturas distribuídas e infraestrutura em nuvem. Desenho e implemento serviços escaláveis, da modelagem de dados à infraestrutura que os mantém no ar, utilizando front-end como ferramenta para garantir autonomia completa de produto.",
+      "role": "Backend & Cloud Infrastructure",
+      "view_projects": "Ver projetos",
+      "resume": "Currículo"
+    },
+    "stats": {
+      "years": "anos construindo software",
+      "degree": "Ciência da Computação",
+      "international": "experiência internacional"
+    },
+    "about": {
+      "title": "Sobre",
+      "lead": "Gosto de problemas onde produto, código e infraestrutura se encontram.",
+      "p1": "Como Engenheiro de Software, meu foco está em sistemas backend, arquiteturas distribuídas e infraestrutura na nuvem. Tenho experiência na construção de serviços escaláveis utilizando Node.js e ecossistema cloud (GCP e AWS), priorizando a resiliência através de microsserviços e comunicação orientada a eventos.",
+      "p2": "Complemento minha base técnica com forte atuação em Infraestrutura como Código (IaC) e automação de CI/CD para garantir entregas seguras e reprodutíveis. Em relação ao produto ponta a ponta, embora minha especialidade seja a arquitetura e sustentação do core, tenho facilidade em transitar pelo front-end para destravar o desenvolvimento e garantir que o fluxo integrado funcione.",
+      "p3": "Gosto de atuar em times que tratam o software como um produto de longo prazo, onde a qualidade técnica e a clareza de comunicação valem tanto quanto a velocidade. Essa mentalidade de ownership me acompanha desde que cofundei uma empresa júnior na faculdade, e sigo aplicando-a hoje no desenvolvimento de plataformas críticas."
+    },
+    "stack": {
+      "title": "Stack",
+      "lead": "Ferramentas que uso no dia a dia, organizadas por camada.",
+      "groups": {
+        "Linguagens": "Linguagens",
+        "Front-end": "Front-end",
+        "Back-end": "Back-end",
+        "Tecnologias": "Tecnologias & Cloud"
+      }
+    },
+    "projects": {
+      "title": "Projetos",
+      "lead": "Trabalhos selecionados entre produto, nuvem e pesquisa.",
+      "items": {
+        "p1": {
+          "name": "Microsserviços e Orquestração BSS",
+          "summary": "Desenho e implementação de microsserviços agnósticos de domínio para plataforma de telecomunicações, utilizando arquitetura orientada a eventos para processamento escalável e assíncrono.",
+          "role": "Backend • Wave"
+        },
+        "p2": {
+          "name": "Infraestrutura Cloud e Automação",
+          "summary": "Provisionamento de ambientes no Google Cloud Platform via Terraform e Pulumi, padronizando o deploy multi-tenant e automatizando pipelines de CI/CD para maior confiabilidade.",
+          "role": "Cloud • Wave"
+        },
+        "p3": {
+          "name": "Multi-conectividade em redes de sensores",
+          "summary": "Extensão do stack IPv6 para comunicação simultânea em múltiplas interfaces de rádio, com tratamento de pacotes duplicados e maior tolerância a falhas em dispositivos de baixo consumo.",
+          "role": "Pesquisa • TU Braunschweig"
+        },
+        "p4": {
+          "name": "Estruturação da empresa júnior OctoBit",
+          "summary": "Criação da diretoria de projetos: processos de escopo e requisitos, trilhas de treinamento técnico e coordenação de equipes de desenvolvimento.",
+          "role": "Diretor de Projetos • OctoBit Jr."
+        }
+      }
+    },
+    "journey": {
+      "title": "Trajetória",
+      "lead": "Experiência profissional e formação acadêmica.",
+      "education_title": "Formação",
+      "experience": {
+        "e1": {
+          "title": "Engenheiro de Software Pleno",
+          "location": "Remoto",
+          "date": "Jul/2026 — Presente",
+          "bullets": [
+            "Assumo ownership técnico sobre microsserviços core BSS (Business Support Systems), contribuindo com decisões técnicas e arquiteturais.",
+            "Garanto a evolução de soluções escaláveis e agnósticas de domínio em toda a plataforma."
+          ]
+        },
+        "e2": {
+          "title": "Engenheiro de Software Júnior",
+          "location": "Remoto",
+          "date": "Nov/2025 — Jun/2026",
+          "bullets": [
+            "Desenhei e implementei microsserviços agnósticos de domínio em Node.js (TypeScript) para os módulos core BSS, permitindo escalabilidade multi-tenant e onboarding simplificado de clientes.",
+            "Construí e mantive infraestrutura em nuvem no Google Cloud Platform usando Terraform e Pulumi, viabilizando deploys reprodutíveis e ambientes padronizados.",
+            "Arquitetei e lancei o módulo de faturamento de assinaturas da plataforma, otimizando pagamentos recorrentes e a gestão complexa do ciclo de vida dos clientes.",
+            "Implementei comunicação orientada a eventos usando GCP Pub/Sub, desacoplando serviços e possibilitando o processamento assíncrono escalável nos pipelines.",
+            "Desenvolvi pipelines de CI/CD utilizando GitHub Actions, automatizando testes, builds e deploys para aumentar a velocidade de entrega e a confiabilidade."
+          ]
+        },
+        "e3": {
+          "title": "Assistente de Pesquisa",
+          "location": "Braunschweig, Alemanha (Híbrido)",
+          "date": "Jul/2024 — Jan/2025",
+          "bullets": [
+            "Implementei um framework de multi-conectividade em C para redes de sensores sem fio, melhorando a confiabilidade na entrega de dados em ambientes com alta interferência.",
+            "Desenvolvi um cabeçalho de extensão IPv6 para comunicação entre múltiplas interfaces, reduzindo a perda de pacotes com o tratamento eficiente de pacotes duplicados."
+          ]
+        },
+        "e4": {
+          "title": "Cofundador e Diretor de Projetos",
+          "location": "Ribeirão Preto, Brasil (Híbrido)",
+          "date": "Ago/2023 — Mar/2024",
+          "bullets": [
+            "Cofundei uma consultoria de software júnior e estruturei o processo de engenharia, definindo fluxos de desenvolvimento e a organização de projetos.",
+            "Liderei a execução técnica de projetos reais, traduzindo requisitos de negócios em especificações de software e coordenando as equipes."
+          ]
+        },
+        "e5": {
+          "title": "Estagiário de Desenvolvimento Web",
+          "location": "São Carlos, Brasil (Remoto)",
+          "date": "Ago/2021 — Jul/2023",
+          "bullets": [
+            "Desenvolvi features full-stack para plataformas corporativas de seguros e saúde utilizando Java (Spring Boot) e Angular, contribuindo em sistemas de larga escala em produção.",
+            "Reduzi os custos de infraestrutura em nuvem em 10% através da auditoria de recursos da AWS (Lambda, EC2, S3) e correção de configurações.",
+            "Construí uma ferramenta interna de gestão usando NestJS e Next.js para validar uma nova arquitetura, permitindo sua adoção nos projetos subsequentes."
+          ]
+        }
+      },
+      "education": {
+        "ed1": {
+          "title": "Universidade de São Paulo - USP",
+          "org": "Bacharelado em Ciência da Computação",
+          "location": "Ribeirão Preto, Brasil"
+        },
+        "ed2": {
+          "title": "Technische Universität Braunschweig - TUBS",
+          "org": "Intercâmbio — Ciência da Computação",
+          "location": "Braunschweig, Alemanha"
+        }
+      }
+    },
+    "differentiators": {
+      "title": "Diferenciais",
+      "lead": "O que eu levo para um time.",
+      "items": {
+        "d1": {
+          "title": "Arquitetura e Sistemas Distribuídos",
+          "body": "Experiência sólida na modelagem de microsserviços, mensageria (Pub/Sub) e comunicação assíncrona, focando sempre em resiliência e escalabilidade."
+        },
+        "d2": {
+          "title": "Infraestrutura como Código (IaC)",
+          "body": "Automação de cloud e CI/CD como parte integrante do produto. O que sobe para produção é provisionado (Terraform/Pulumi) e reprodutível."
+        },
+        "d3": {
+          "title": "Visão de Produto (End-to-End)",
+          "body": "Compreendo o ciclo de vida completo do software. Embora meu foco e especialidade sejam o backend e a infraestrutura, consigo navegar com facilidade pelo front-end para integrar APIs e garantir que o produto final funcione perfeitamente."
+        },
+        "d4": {
+          "title": "Base Sólida e Ownership",
+          "body": "Ciência da Computação na USP, vivência internacional de pesquisa na Alemanha e um forte perfil de ownership cultivado pela fundação e gestão de uma empresa júnior."
+        }
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "lead": "Vamos construir algo <1>sólido</1> juntos.",
+      "email": "E-mail",
+      "phone": "Telefone"
+    },
+    "footer": {
+      "back_to_top": "Voltar ao topo"
+    }
+  }
+}
