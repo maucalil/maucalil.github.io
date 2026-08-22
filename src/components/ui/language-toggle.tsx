@@ -19,7 +19,9 @@ export function LanguageToggle() {
       aria-label="Toggle language"
     >
       <Globe className="mr-2 h-4 w-4" />
-      <span className="font-mono text-xs uppercase">{i18n.language.startsWith("pt") ? "PT" : "EN"}</span>
+      <span className="font-mono text-xs uppercase">
+        {i18n.language.startsWith("pt") ? "PT" : "EN"}
+      </span>
     </Button>
   );
 }

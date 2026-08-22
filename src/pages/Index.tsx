@@ -24,16 +24,15 @@ function SectionHead({
       <p id={id} className="eyebrow scroll-mt-28 pt-2">
         {index} — {title}
       </p>
-      {lead && (
-        <p className="display max-w-2xl text-2xl text-foreground md:text-4xl">{lead}</p>
-      )}
+      {lead && <p className="display max-w-2xl text-2xl text-foreground md:text-4xl">{lead}</p>}
     </Reveal>
   );
 }
 
 export default function Index() {
   const { t } = useTranslation();
-  const { skillGroups, experience, education, projects, differentiators, stats } = usePortfolioData();
+  const { skillGroups, experience, education, projects, differentiators, stats } =
+    usePortfolioData();
 
   const nav = [
     { label: t("nav.about"), href: "#sobre" },
@@ -77,7 +76,10 @@ export default function Index() {
       <main>
         {/* Hero */}
         <section id="inicio" className="relative overflow-hidden border-b border-hairline">
-          <div aria-hidden className="hairline-grid pointer-events-none absolute inset-0 opacity-40" />
+          <div
+            aria-hidden
+            className="hairline-grid pointer-events-none absolute inset-0 opacity-40"
+          />
           <div
             aria-hidden
             className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_90%_at_20%_0%,transparent_35%,var(--background)_85%)]"
@@ -95,7 +97,10 @@ export default function Index() {
             <Reveal delay={160}>
               <div className="mt-12 grid gap-10 border-t border-hairline pt-10 md:grid-cols-[minmax(0,1fr)_20rem] md:gap-16">
                 <p className="max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
-                  <Trans i18nKey="hero.description" components={{ 1: <span className="text-foreground" /> }} />
+                  <Trans
+                    i18nKey="hero.description"
+                    components={{ 1: <span className="text-foreground" /> }}
+                  />
                 </p>
                 <div className="flex flex-col gap-6">
                   <div className="flex items-center gap-4">
@@ -169,12 +174,7 @@ export default function Index() {
         {/* Sobre */}
         <section className="border-b border-hairline py-24 lg:py-32">
           <div className="mx-auto max-w-6xl px-6 lg:px-10">
-            <SectionHead
-              id="sobre"
-              index="01"
-              title={t("about.title")}
-              lead={t("about.lead")}
-            />
+            <SectionHead id="sobre" index="01" title={t("about.title")} lead={t("about.lead")} />
             <div className="mt-14 grid gap-10 md:grid-cols-[13rem_minmax(0,1fr)] md:gap-10">
               <div className="hidden md:block" />
               <div className="grid max-w-3xl gap-6 text-sm leading-relaxed text-muted-foreground md:text-base">
@@ -195,12 +195,7 @@ export default function Index() {
         {/* Stack */}
         <section className="border-b border-hairline py-24 lg:py-32">
           <div className="mx-auto max-w-6xl px-6 lg:px-10">
-            <SectionHead
-              id="stack"
-              index="02"
-              title={t("stack.title")}
-              lead={t("stack.lead")}
-            />
+            <SectionHead id="stack" index="02" title={t("stack.title")} lead={t("stack.lead")} />
             <div className="mt-14 divide-y divide-border/60 border-y border-hairline">
               {skillGroups.map((group, i) => (
                 <Reveal
@@ -329,7 +324,10 @@ export default function Index() {
             <Reveal>
               <p className="eyebrow">06 — {t("contact.title")}</p>
               <h2 className="display mt-8 max-w-3xl text-[clamp(2rem,6vw,4.5rem)] text-foreground">
-                <Trans i18nKey="contact.lead" components={{ 1: <span className="text-primary" /> }} />
+                <Trans
+                  i18nKey="contact.lead"
+                  components={{ 1: <span className="text-primary" /> }}
+                />
               </h2>
             </Reveal>
             <Reveal delay={100}>
