@@ -330,7 +330,7 @@ export default function Index() {
             <Reveal delay={100}>
               <div className="mt-14 grid gap-px border-y border-hairline bg-border/60 md:grid-cols-2">
                 <a
-                  href="mailto:mauricio.calil@usp.br"
+                  href="mailto:mauricio.calil2@gmail.com"
                   className="group grid grid-cols-[minmax(0,1fr)_auto] items-center gap-4 bg-background px-2 py-8 transition-colors hover:bg-elevated md:px-8"
                 >
                   <span className="min-w-0">
@@ -338,7 +338,7 @@ export default function Index() {
                       <Mail className="size-3.5" /> {t("contact.email")}
                     </span>
                     <span className="mt-3 block truncate font-mono text-sm text-foreground md:text-base">
-                      mauricio.calil@usp.br
+                      mauricio.calil2@gmail.com
                     </span>
                   </span>
                   <ArrowUpRight className="size-5 shrink-0 text-muted-foreground transition-all group-hover:-translate-y-0.5 group-hover:translate-x-0.5 group-hover:text-primary" />
