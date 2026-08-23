@@ -67,54 +67,77 @@
       "lead": "Experiência profissional e formação acadêmica.",
       "education_title": "Formação",
       "experience": {
-        "e1": {
-          "title": "Engenheiro de Software Pleno",
+        "c1": {
+          "company": "Bemobi Wave",
           "location": "Remoto",
-          "date": "Jul/2026 — Presente",
-          "bullets": [
-            "Assumo ownership técnico sobre microsserviços core BSS (Business Support Systems), contribuindo com decisões técnicas e arquiteturais.",
-            "Garanto a evolução de soluções escaláveis e agnósticas de domínio em toda a plataforma."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Engenheiro de Software Pleno",
+              "date": "Jul/2026 — Presente",
+              "skills": ["Node.js", "TypeScript", "GCP", "Microservices", "Next.js"],
+              "bullets": [
+                "Assumo ownership técnico sobre microsserviços core BSS (Business Support Systems), contribuindo com decisões técnicas e arquiteturais.",
+                "Garanto a evolução de soluções escaláveis e agnósticas de domínio em toda a plataforma."
+              ]
+            },
+            "r2": {
+              "title": "Engenheiro de Software Júnior",
+              "date": "Nov/2025 — Jun/2026",
+              "bullets": [
+                "Desenhei e implementei microsserviços agnósticos de domínio em Node.js (TypeScript) para os módulos core BSS, permitindo escalabilidade multi-tenant e onboarding simplificado de clientes.",
+                "Construí e mantive infraestrutura em nuvem no Google Cloud Platform usando Terraform e Pulumi, viabilizando deploys reprodutíveis e ambientes padronizados.",
+                "Arquitetei e lancei o módulo de faturamento de assinaturas da plataforma, otimizando pagamentos recorrentes e a gestão complexa do ciclo de vida dos clientes.",
+                "Implementei comunicação orientada a eventos usando GCP Pub/Sub, desacoplando serviços e possibilitando o processamento assíncrono escalável nos pipelines.",
+                "Desenvolvi pipelines de CI/CD utilizando GitHub Actions, automatizando testes, builds e deploys para aumentar a velocidade de entrega e a confiabilidade."
+              ]
+            }
+          }
         },
-        "e2": {
-          "title": "Engenheiro de Software Júnior",
-          "location": "Remoto",
-          "date": "Nov/2025 — Jun/2026",
-          "bullets": [
-            "Desenhei e implementei microsserviços agnósticos de domínio em Node.js (TypeScript) para os módulos core BSS, permitindo escalabilidade multi-tenant e onboarding simplificado de clientes.",
-            "Construí e mantive infraestrutura em nuvem no Google Cloud Platform usando Terraform e Pulumi, viabilizando deploys reprodutíveis e ambientes padronizados.",
-            "Arquitetei e lancei o módulo de faturamento de assinaturas da plataforma, otimizando pagamentos recorrentes e a gestão complexa do ciclo de vida dos clientes.",
-            "Implementei comunicação orientada a eventos usando GCP Pub/Sub, desacoplando serviços e possibilitando o processamento assíncrono escalável nos pipelines.",
-            "Desenvolvi pipelines de CI/CD utilizando GitHub Actions, automatizando testes, builds e deploys para aumentar a velocidade de entrega e a confiabilidade."
-          ]
-        },
-        "e3": {
-          "title": "Assistente de Pesquisa",
+        "c2": {
+          "company": "Technische Universität Braunschweig",
           "location": "Braunschweig, Alemanha (Híbrido)",
-          "date": "Jul/2024 — Jan/2025",
-          "bullets": [
-            "Implementei um framework de multi-conectividade em C para redes de sensores sem fio, melhorando a confiabilidade na entrega de dados em ambientes com alta interferência.",
-            "Desenvolvi um cabeçalho de extensão IPv6 para comunicação entre múltiplas interfaces, reduzindo a perda de pacotes com o tratamento eficiente de pacotes duplicados."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Assistente de Pesquisa",
+              "date": "Jul/2024 — Jan/2025",
+              "skills": ["C", "IoT", "Protocolos de Rede"],
+              "bullets": [
+                "Implementei um framework de multi-conectividade em C para redes de sensores sem fio, melhorando a confiabilidade na entrega de dados em ambientes com alta interferência.",
+                "Desenvolvi um cabeçalho de extensão IPv6 para comunicação entre múltiplas interfaces, reduzindo a perda de pacotes com o tratamento eficiente de pacotes duplicados."
+              ]
+            }
+          }
         },
-        "e4": {
-          "title": "Cofundador e Diretor de Projetos",
+        "c3": {
+          "company": "OctoBit Empresa Júnior USP",
           "location": "Ribeirão Preto, Brasil (Híbrido)",
-          "date": "Ago/2023 — Mar/2024",
-          "bullets": [
-            "Cofundei uma consultoria de software júnior e estruturei o processo de engenharia, definindo fluxos de desenvolvimento e a organização de projetos.",
-            "Liderei a execução técnica de projetos reais, traduzindo requisitos de negócios em especificações de software e coordenando as equipes."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Cofundador e Diretor de Projetos",
+              "date": "Ago/2023 — Mar/2024",
+              "skills": ["Liderança", "Gestão de Projetos"],
+              "bullets": [
+                "Cofundei uma consultoria de software júnior e estruturei o processo de engenharia, definindo fluxos de desenvolvimento e a organização de projetos.",
+                "Liderei a execução técnica de projetos reais, traduzindo requisitos de negócios em especificações de software e coordenando as equipes."
+              ]
+            }
+          }
         },
-        "e5": {
-          "title": "Estagiário de Desenvolvimento Web",
+        "c4": {
+          "company": "Tokenlab",
           "location": "São Carlos, Brasil (Remoto)",
-          "date": "Ago/2021 — Jul/2023",
-          "bullets": [
-            "Desenvolvi features full-stack para plataformas corporativas de seguros e saúde utilizando Java (Spring Boot) e Angular, contribuindo em sistemas de larga escala em produção.",
-            "Reduzi os custos de infraestrutura em nuvem em 10% através da auditoria de recursos da AWS (Lambda, EC2, S3) e correção de configurações.",
-            "Construí uma ferramenta interna de gestão usando NestJS e Next.js para validar uma nova arquitetura, permitindo sua adoção nos projetos subsequentes."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Estagiário de Desenvolvimento Web",
+              "date": "Ago/2021 — Jul/2023",
+              "skills": ["Java Spring Boot", "Angular", "AWS", "NestJS", "Next.js"],
+              "bullets": [
+                "Desenvolvi features full-stack para plataformas corporativas de seguros e saúde utilizando Java (Spring Boot) e Angular, contribuindo em sistemas de larga escala em produção.",
+                "Reduzi os custos de infraestrutura em nuvem em 10% através da auditoria de recursos da AWS (Lambda, EC2, S3) e correção de configurações.",
+                "Construí uma ferramenta interna de gestão usando NestJS e Next.js para validar uma nova arquitetura, permitindo sua adoção nos projetos subsequentes."
+              ]
+            }
+          }
         }
       },
       "education": {

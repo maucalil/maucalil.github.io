@@ -67,54 +67,77 @@
       "lead": "Professional experience and academic background.",
       "education_title": "Education",
       "experience": {
-        "e1": {
-          "title": "Mid-Level Software Engineer",
+        "c1": {
+          "company": "Bemobi Wave",
           "location": "Remote",
-          "date": "Jul/2026 — Present",
-          "bullets": [
-            "Taking technical ownership of core BSS (Business Support Systems) microservices.",
-            "Contributing to technical and architectural decisions, ensuring the evolution of scalable, domain-agnostic solutions across the platform."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Mid-Level Software Engineer",
+              "date": "Jul/2026 — Present",
+              "skills": ["Node.js", "TypeScript", "GCP", "Microservices", "Next.js"],
+              "bullets": [
+                "Taking technical ownership of core BSS (Business Support Systems) microservices.",
+                "Contributing to technical and architectural decisions, ensuring the evolution of scalable, domain-agnostic solutions across the platform."
+              ]
+            },
+            "r2": {
+              "title": "Junior Software Engineer",
+              "date": "Nov/2025 — Jun/2026",
+              "bullets": [
+                "Designed and implemented domain-agnostic microservices in Node.js (TypeScript) across core BSS modules, enabling multi-tenant scalability and seamless client onboarding.",
+                "Built and maintained cloud infrastructure on Google Cloud Platform using Terraform and Pulumi, enabling reproducible deployments and standardized environments across tenants.",
+                "Architected and launched the platform’s subscription billing module, streamlining recurring payments and complex customer lifecycle management.",
+                "Implemented event-driven communication using GCP Pub/Sub, decoupling core services and enabling scalable asynchronous processing across domain pipelines.",
+                "Developed CI/CD pipelines with GitHub Actions, automating build, test, and deployment processes to increase delivery speed and software reliability."
+              ]
+            }
+          }
         },
-        "e2": {
-          "title": "Junior Software Engineer",
-          "location": "Remote",
-          "date": "Nov/2025 — Jun/2026",
-          "bullets": [
-            "Designed and implemented domain-agnostic microservices in Node.js (TypeScript) across core BSS modules, enabling multi-tenant scalability and seamless client onboarding.",
-            "Built and maintained cloud infrastructure on Google Cloud Platform using Terraform and Pulumi, enabling reproducible deployments and standardized environments across tenants.",
-            "Architected and launched the platform’s subscription billing module, streamlining recurring payments and complex customer lifecycle management.",
-            "Implemented event-driven communication using GCP Pub/Sub, decoupling core services and enabling scalable asynchronous processing across domain pipelines.",
-            "Developed CI/CD pipelines with GitHub Actions, automating build, test, and deployment processes to increase delivery speed and software reliability."
-          ]
-        },
-        "e3": {
-          "title": "Student Research Assistant",
+        "c2": {
+          "company": "Technische Universität Braunschweig",
           "location": "Brunswick, Germany (Hybrid)",
-          "date": "Jul/2024 — Jan/2025",
-          "bullets": [
-            "Implemented a multi-connectivity framework in C for wireless sensor networks, improving data delivery reliability in high-interference environments.",
-            "Designed and implemented an IPv6 extension header for multi-interface communication, enabling duplicate packet handling to reduce packet loss."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Student Research Assistant",
+              "date": "Jul/2024 — Jan/2025",
+              "skills": ["C", "IPv6", "IoT", "Networking"],
+              "bullets": [
+                "Implemented a multi-connectivity framework in C for wireless sensor networks, improving data delivery reliability in high-interference environments.",
+                "Designed and implemented an IPv6 extension header for multi-interface communication, enabling duplicate packet handling to reduce packet loss."
+              ]
+            }
+          }
         },
-        "e4": {
-          "title": "Co-founder & Project Lead",
+        "c3": {
+          "company": "OctoBit Empresa Júnior USP",
           "location": "Ribeirão Preto, Brazil (Hybrid)",
-          "date": "Aug/2023 — Mar/2024",
-          "bullets": [
-            "Co-founded a student-run software consultancy and structured the engineering delivery process, defining development workflows and project organization.",
-            "Led the technical execution of client projects, translating business requirements into software specifications and coordinating development teams."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Co-founder & Project Lead",
+              "date": "Aug/2023 — Mar/2024",
+              "skills": ["Leadership", "Project Management", "Scrum", "Architecture"],
+              "bullets": [
+                "Co-founded a student-run software consultancy and structured the engineering delivery process, defining development workflows and project organization.",
+                "Led the technical execution of client projects, translating business requirements into software specifications and coordinating development teams."
+              ]
+            }
+          }
         },
-        "e5": {
-          "title": "Web Development Intern",
+        "c4": {
+          "company": "Tokenlab",
           "location": "São Carlos, Brazil (Remote)",
-          "date": "Aug/2021 — Jul/2023",
-          "bullets": [
-            "Developed full-stack features for enterprise insurance and healthcare platforms using Java (Spring Boot) and Angular, contributing to large-scale production systems.",
-            "Reduced cloud infrastructure costs by 10% by auditing AWS resources (Lambda, EC2, S3) and correcting misconfigurations.",
-            "Built an internal management tool using NestJS and Next.js to evaluate a new full-stack architecture, enabling its adoption in subsequent client projects."
-          ]
+          "roles": {
+            "r1": {
+              "title": "Web Development Intern",
+              "date": "Aug/2021 — Jul/2023",
+              "skills": ["Java", "Spring Boot", "Angular", "AWS", "NestJS", "Next.js"],
+              "bullets": [
+                "Developed full-stack features for enterprise insurance and healthcare platforms using Java (Spring Boot) and Angular, contributing to large-scale production systems.",
+                "Reduced cloud infrastructure costs by 10% by auditing AWS resources (Lambda, EC2, S3) and correcting misconfigurations.",
+                "Built an internal management tool using NestJS and Next.js to evaluate a new full-stack architecture, enabling its adoption in subsequent client projects."
+              ]
+            }
+          }
         }
       },
       "education": {

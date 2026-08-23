@@ -5,12 +5,21 @@ export type SkillGroup = { title: string; skills: Skill[] };
 
 const dv = (path: string) => `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${path}`;
 
-export type TimelineItem = {
+export type TimelineRole = {
   title: string;
-  org: string;
   date: string;
-  location: string;
+  skills: string[];
   bullets?: string[];
+};
+
+export type TimelineItem = {
+  location: string;
+  title?: string;
+  org?: string;
+  date?: string;
+  bullets?: string[];
+  company?: string;
+  roles?: TimelineRole[];
 };
 
 export type Project = {
@@ -69,39 +78,58 @@ export function usePortfolioData() {
 
   const experience: TimelineItem[] = [
     {
-      title: t("journey.experience.e1.title"),
-      org: "Bemobi Wave",
-      date: t("journey.experience.e1.date"),
-      location: t("journey.experience.e1.location"),
-      bullets: t("journey.experience.e1.bullets", { returnObjects: true }) as string[],
+      company: t("journey.experience.c1.company"),
+      location: t("journey.experience.c1.location"),
+      roles: [
+        {
+          title: t("journey.experience.c1.roles.r1.title"),
+          date: t("journey.experience.c1.roles.r1.date"),
+          skills: t("journey.experience.c1.roles.r1.skills", { returnObjects: true }) as string[],
+          bullets: t("journey.experience.c1.roles.r1.bullets", { returnObjects: true }) as string[],
+        },
+        {
+          title: t("journey.experience.c1.roles.r2.title"),
+          date: t("journey.experience.c1.roles.r2.date"),
+          skills: t("journey.experience.c1.roles.r2.skills", { returnObjects: true }) as string[],
+          bullets: t("journey.experience.c1.roles.r2.bullets", { returnObjects: true }) as string[],
+        },
+      ],
     },
     {
-      title: t("journey.experience.e2.title"),
-      org: "Bemobi Wave",
-      date: t("journey.experience.e2.date"),
-      location: t("journey.experience.e2.location"),
-      bullets: t("journey.experience.e2.bullets", { returnObjects: true }) as string[],
+      company: t("journey.experience.c2.company"),
+      location: t("journey.experience.c2.location"),
+      roles: [
+        {
+          title: t("journey.experience.c2.roles.r1.title"),
+          date: t("journey.experience.c2.roles.r1.date"),
+          skills: t("journey.experience.c2.roles.r1.skills", { returnObjects: true }) as string[],
+          bullets: t("journey.experience.c2.roles.r1.bullets", { returnObjects: true }) as string[],
+        },
+      ],
     },
     {
-      title: t("journey.experience.e3.title"),
-      org: "Technische Universität Braunschweig",
-      date: t("journey.experience.e3.date"),
-      location: t("journey.experience.e3.location"),
-      bullets: t("journey.experience.e3.bullets", { returnObjects: true }) as string[],
+      company: t("journey.experience.c3.company"),
+      location: t("journey.experience.c3.location"),
+      roles: [
+        {
+          title: t("journey.experience.c3.roles.r1.title"),
+          date: t("journey.experience.c3.roles.r1.date"),
+          skills: t("journey.experience.c3.roles.r1.skills", { returnObjects: true }) as string[],
+          bullets: t("journey.experience.c3.roles.r1.bullets", { returnObjects: true }) as string[],
+        },
+      ],
     },
     {
-      title: t("journey.experience.e4.title"),
-      org: "OctoBit Empresa Júnior USP",
-      date: t("journey.experience.e4.date"),
-      location: t("journey.experience.e4.location"),
-      bullets: t("journey.experience.e4.bullets", { returnObjects: true }) as string[],
-    },
-    {
-      title: t("journey.experience.e5.title"),
-      org: "Tokenlab",
-      date: t("journey.experience.e5.date"),
-      location: t("journey.experience.e5.location"),
-      bullets: t("journey.experience.e5.bullets", { returnObjects: true }) as string[],
+      company: t("journey.experience.c4.company"),
+      location: t("journey.experience.c4.location"),
+      roles: [
+        {
+          title: t("journey.experience.c4.roles.r1.title"),
+          date: t("journey.experience.c4.roles.r1.date"),
+          skills: t("journey.experience.c4.roles.r1.skills", { returnObjects: true }) as string[],
+          bullets: t("journey.experience.c4.roles.r1.bullets", { returnObjects: true }) as string[],
+        },
+      ],
     },
   ];
 
