@@ -2,7 +2,6 @@ import { ArrowDownRight, ArrowUpRight, Github, Linkedin, Mail, Phone } from "luc
 import { useTranslation, Trans } from "react-i18next";
 import { cn } from "@/lib/utils";
 
-import profileImg from "@/assets/profile.jpg";
 import { Button } from "@/components/ui/button";
 import { Reveal } from "@/components/portfolio/Reveal";
 import { Timeline } from "@/components/portfolio/Timeline";
@@ -96,63 +95,57 @@ export default function Index() {
               </h1>
             </Reveal>
             <Reveal delay={160}>
-              <div className="mt-12 grid gap-10 border-t border-hairline pt-10 md:grid-cols-[minmax(0,1fr)_20rem] md:gap-16">
+              <div className="mt-12 grid gap-10 border-t border-hairline pt-10 md:grid-cols-[minmax(0,1fr)_24rem] md:gap-16">
                 <p className="max-w-xl text-base leading-relaxed text-muted-foreground md:text-lg">
                   <Trans
                     i18nKey="hero.description"
                     components={{ 1: <span className="text-foreground" /> }}
                   />
                 </p>
-                <div className="flex flex-col gap-6">
-                  <div className="flex items-center gap-4">
-                    <img
-                      src={profileImg}
-                      alt="Retrato de Maurício Calil Manfrim Lucera"
-                      width={816}
-                      height={816}
-                      className="size-16 shrink-0 rounded-full object-cover ring-1 ring-border"
-                    />
-                    <div className="min-w-0">
-                      <p className="font-mono text-xs text-foreground">{t("hero.role")}</p>
-                      <p className="mt-1 text-xs text-muted-foreground">
-                        TypeScript · Node · AWS · Angular
-                      </p>
-                    </div>
+                <div className="flex flex-col gap-8">
+                  <div className="min-w-0">
+                    <p className="font-mono text-base md:text-lg text-foreground">{t("hero.role")}</p>
+                    <p className="mt-1 text-sm text-muted-foreground">
+                      TypeScript · Node.js · GCP
+                    </p>
                   </div>
-                  <div className="flex flex-wrap items-center gap-3">
-                    <Button asChild size="sm" className="rounded-none font-mono text-xs">
-                      <a href="#projetos">
-                        {t("hero.view_projects")} <ArrowDownRight />
+                  <div className="flex flex-col gap-4">
+                    <div className="flex flex-wrap items-center gap-4">
+                      <Button asChild className="rounded-none font-mono text-sm">
+                        <a href="#projetos">
+                          {t("hero.view_projects")} <ArrowDownRight className="ml-2 size-4" />
+                        </a>
+                      </Button>
+                      <Button
+                        asChild
+                        variant="outline"
+                        className="rounded-none border-border bg-transparent font-mono text-sm hover:bg-secondary"
+                      >
+                        <a href="/cv-mauricio-calil.pdf" download>
+                          {t("hero.resume")}
+                        </a>
+                      </Button>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <a
+                        href="https://www.linkedin.com/in/maucalil"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="LinkedIn"
+                        className="p-2 text-muted-foreground transition-colors hover:text-primary"
+                      >
+                        <Linkedin className="size-6" />
                       </a>
-                    </Button>
-                    <Button
-                      asChild
-                      size="sm"
-                      variant="outline"
-                      className="rounded-none border-border bg-transparent font-mono text-xs hover:bg-secondary"
-                    >
-                      <a href="/cv-mauricio-calil.pdf" download>
-                        {t("hero.resume")}
+                      <a
+                        href="https://github.com/maucalil"
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label="GitHub"
+                        className="p-2 text-muted-foreground transition-colors hover:text-primary"
+                      >
+                        <Github className="size-6" />
                       </a>
-                    </Button>
-                    <a
-                      href="https://www.linkedin.com/in/maucalil"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="LinkedIn"
-                      className="text-muted-foreground transition-colors hover:text-primary"
-                    >
-                      <Linkedin className="size-4" />
-                    </a>
-                    <a
-                      href="https://github.com/maucalil"
-                      target="_blank"
-                      rel="noreferrer"
-                      aria-label="GitHub"
-                      className="text-muted-foreground transition-colors hover:text-primary"
-                    >
-                      <Github className="size-4" />
-                    </a>
+                    </div>
                   </div>
                 </div>
               </div>

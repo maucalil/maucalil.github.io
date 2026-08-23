@@ -9,8 +9,8 @@
     },
     "hero": {
       "location": "Ribeirão Preto, Brazil",
-      "description": "Software Engineer specialized in backend systems, distributed architectures, and cloud infrastructure. I design reliable, scalable services from data modeling to the cloud infrastructure that runs them, using front-end tooling to guarantee full product autonomy.",
-      "role": "Backend & Cloud Infrastructure",
+      "description": "Software Engineer specialized in backend systems, distributed architectures, and cloud infrastructure. I design reliable, scalable services from data modeling to the cloud infrastructure that runs them.",
+      "role": "Backend Software Engineer",
       "view_projects": "View projects",
       "resume": "Resume"
     },
@@ -22,7 +22,7 @@
     "about": {
       "title": "About",
       "lead": "I enjoy problems where product, code, and infrastructure meet.",
-      "p1": "As a Software Engineer, my focus is on backend systems, distributed architectures, and cloud infrastructure. I have experience building scalable services using Node.js and cloud ecosystems (GCP and AWS), prioritizing reliability through microservices and event-driven communication.",
+      "p1": "As a Software Engineer, my focus is on backend systems, distributed architectures, and cloud infrastructure. I have experience building scalable services using Node.js and cloud ecosystems (GCP), prioritizing reliability through microservices and event-driven communication.",
       "p2": "I complement my technical foundation with strong hands-on experience in Infrastructure as Code (IaC) and CI/CD automation to ensure secure and reproducible deliveries. Regarding the end-to-end product, while my specialty lies in architecting and maintaining the core, I can navigate the front-end to unblock development and ensure the entire integrated flow works seamlessly.",
       "p3": "I value working in teams that treat software as a long-term product, where technical quality and clear communication are as valuable as speed. This ownership mentality has been with me since co-founding a junior enterprise at university, and continues to drive my day-to-day work building critical platforms."
     },

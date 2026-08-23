@@ -179,7 +179,7 @@ export function usePortfolioData() {
   const stats = [
     { value: "3+", label: t("stats.years") },
     { value: "USP", label: t("stats.degree") },
-    { value: "DE / BR", label: t("stats.international") },
+    { value: "BR / DE", label: t("stats.international") },
   ];
 
   return { skillGroups, experience, education, projects, differentiators, stats };

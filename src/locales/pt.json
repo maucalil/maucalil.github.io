@@ -9,8 +9,8 @@
     },
     "hero": {
       "location": "Ribeirão Preto, Brasil",
-      "description": "Engenheiro de Software especializado em sistemas backend, arquiteturas distribuídas e infraestrutura em nuvem. Desenho e implemento serviços escaláveis, da modelagem de dados à infraestrutura que os mantém no ar, utilizando front-end como ferramenta para garantir autonomia completa de produto.",
-      "role": "Backend & Cloud Infrastructure",
+      "description": "Engenheiro de Software especializado em sistemas backend, arquiteturas distribuídas e infraestrutura em nuvem. Desenho e implemento serviços escaláveis, da modelagem de dados à infraestrutura que os mantém no ar.",
+      "role": "Backend Software Engineer",
       "view_projects": "Ver projetos",
       "resume": "Currículo"
     },
@@ -22,7 +22,7 @@
     "about": {
       "title": "Sobre",
       "lead": "Gosto de problemas onde produto, código e infraestrutura se encontram.",
-      "p1": "Como Engenheiro de Software, meu foco está em sistemas backend, arquiteturas distribuídas e infraestrutura na nuvem. Tenho experiência na construção de serviços escaláveis utilizando Node.js e ecossistema cloud (GCP e AWS), priorizando a resiliência através de microsserviços e comunicação orientada a eventos.",
+      "p1": "Como Engenheiro de Software, meu foco está em sistemas backend, arquiteturas distribuídas e infraestrutura na nuvem. Tenho experiência na construção de serviços escaláveis utilizando Node.js e ecossistema cloud (GCP), priorizando a resiliência através de microsserviços e comunicação orientada a eventos.",
       "p2": "Complemento minha base técnica com forte atuação em Infraestrutura como Código (IaC) e automação de CI/CD para garantir entregas seguras e reprodutíveis. Em relação ao produto ponta a ponta, embora minha especialidade seja a arquitetura e sustentação do core, tenho facilidade em transitar pelo front-end para destravar o desenvolvimento e garantir que o fluxo integrado funcione.",
       "p3": "Gosto de atuar em times que tratam o software como um produto de longo prazo, onde a qualidade técnica e a clareza de comunicação valem tanto quanto a velocidade. Essa mentalidade de ownership me acompanha desde que cofundei uma empresa júnior na faculdade, e sigo aplicando-a hoje no desenvolvimento de plataformas críticas."
     },
