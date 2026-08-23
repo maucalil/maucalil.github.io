@@ -136,11 +136,11 @@
       "items": {
         "d1": {
           "title": "Arquitetura e Sistemas Distribuídos",
-          "body": "Experiência sólida na modelagem de microsserviços, mensageria (Pub/Sub) e comunicação assíncrona, focando sempre em resiliência e escalabilidade."
+          "body": "Experiência sólida na modelagem de microsserviços, mensageria e comunicação assíncrona, focando sempre em resiliência e escalabilidade."
         },
         "d2": {
           "title": "Infraestrutura como Código (IaC)",
-          "body": "Automação de cloud e CI/CD como parte integrante do produto. O que sobe para produção é provisionado (Terraform/Pulumi) e reprodutível."
+          "body": "Automação de cloud e CI/CD como parte integrante do produto. O que sobe para produção é provisionado e reprodutível."
         },
         "d3": {
           "title": "Visão de Produto (End-to-End)",
@@ -148,7 +148,7 @@
         },
         "d4": {
           "title": "Base Sólida e Ownership",
-          "body": "Ciência da Computação na USP, vivência internacional de pesquisa na Alemanha e um forte perfil de ownership cultivado pela fundação e gestão de uma empresa júnior."
+          "body": "Base acadêmica sólida com vivência internacional de pesquisa e um forte perfil de ownership. Encaro cada sistema e projeto com visão de dono, unindo base teórica a resultados práticos."
         }
       }
     },

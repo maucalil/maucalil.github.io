@@ -136,11 +136,11 @@
       "items": {
         "d1": {
           "title": "Architecture & Distributed Systems",
-          "body": "Solid experience in modeling and building microservices, messaging (Pub/Sub), and asynchronous communication designed for resilience and scalability."
+          "body": "Solid experience in modeling and building microservices, messaging, and asynchronous communication designed for resilience and scalability."
         },
         "d2": {
           "title": "Infrastructure as Code (IaC)",
-          "body": "Deep cloud and CI/CD automation. What goes to production is provisioned via Terraform/Pulumi and managed by reliable pipelines."
+          "body": "Cloud and CI/CD automation as a core part of the product. Everything deployed to production is provisioned and fully reproducible."
         },
         "d3": {
           "title": "End-to-End Product Vision",
@@ -148,7 +148,7 @@
         },
         "d4": {
           "title": "Solid Foundation & Ownership",
-          "body": "Computer Science at USP, international research experience in Germany, and a strong sense of ownership sharpened by founding a junior enterprise."
+          "body": "Solid academic foundation with international research experience and a strong ownership profile. I treat every system and project as my own, bridging theoretical foundation with practical results."
         }
       }
     },
