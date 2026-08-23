@@ -135,7 +135,7 @@ export default function Index() {
                       </a>
                     </Button>
                     <a
-                      href="https://www.linkedin.com/"
+                      href="https://www.linkedin.com/in/maucalil"
                       target="_blank"
                       rel="noreferrer"
                       aria-label="LinkedIn"
@@ -371,7 +371,7 @@ export default function Index() {
           <p className="eyebrow">© {new Date().getFullYear()} Maurício Calil Manfrim Lucera</p>
           <div className="flex items-center gap-6">
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/maucalil"
               target="_blank"
               rel="noreferrer"
               className="link-underline font-mono text-xs text-muted-foreground hover:text-foreground"
