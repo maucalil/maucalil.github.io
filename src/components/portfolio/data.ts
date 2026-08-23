@@ -127,7 +127,7 @@ export function usePortfolioData() {
       summary: t("projects.items.p1.summary"),
       role: t("projects.items.p1.role"),
       year: "2026",
-      stack: ["Node.js", "TypeScript", "GCP Pub/Sub", "Microservices"],
+      stack: ["Node.js", "TypeScript", "GCP", "Microservices"],
     },
     {
       index: "02",
@@ -143,7 +143,7 @@ export function usePortfolioData() {
       summary: t("projects.items.p3.summary"),
       role: t("projects.items.p3.role"),
       year: "2024",
-      stack: ["C", "RIOT OS", "IPv6", "NDP"],
+      stack: ["C", "IoT", "Network Protocols"],
     },
     {
       index: "04",
@@ -151,7 +151,7 @@ export function usePortfolioData() {
       summary: t("projects.items.p4.summary"),
       role: t("projects.items.p4.role"),
       year: "2023",
-      stack: ["Gestão", "Requisitos", "Liderança"],
+      stack: ["Leadership", "Team Management"],
     },
   ];
 
