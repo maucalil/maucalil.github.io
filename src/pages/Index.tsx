@@ -219,7 +219,7 @@ export default function Index() {
                           height={16}
                           className={cn(
                             "size-4 opacity-80 transition-opacity group-hover:opacity-100",
-                            skill.invertDark && "invert dark:invert"
+                            skill.invertDark && "invert dark:invert",
                           )}
                         />
                         <span className="font-mono text-xs text-muted-foreground transition-colors group-hover:text-foreground">
