@@ -1,6 +1,6 @@
 import { useTranslation } from "react-i18next";
 
-export type Skill = { name: string; icon: string };
+export type Skill = { name: string; icon: string; invertDark?: boolean };
 export type SkillGroup = { title: string; skills: Skill[] };
 
 const dv = (path: string) => `https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${path}`;
@@ -32,8 +32,8 @@ export function usePortfolioData() {
       skills: [
         { name: "Node.js", icon: dv("nodejs/nodejs-original.svg") },
         { name: "TypeScript", icon: dv("typescript/typescript-original.svg") },
-        { name: "Fastify", icon: dv("fastify/fastify-plain.svg") },
-        { name: "Express.js", icon: dv("express/express-original.svg") },
+        { name: "Fastify", icon: dv("fastify/fastify-plain.svg"), invertDark: true },
+        { name: "Express.js", icon: dv("express/express-original.svg"), invertDark: true },
         { name: "NestJS", icon: dv("nestjs/nestjs-plain.svg") },
         { name: "Java (Spring Boot)", icon: dv("spring/spring-original.svg") },
       ],
@@ -46,7 +46,7 @@ export function usePortfolioData() {
         { name: "Terraform", icon: dv("terraform/terraform-original.svg") },
         { name: "Pulumi", icon: dv("pulumi/pulumi-plain.svg") },
         { name: "PostgreSQL", icon: dv("postgresql/postgresql-original.svg") },
-        { name: "GitHub Actions", icon: dv("github/github-original.svg") },
+        { name: "GitHub Actions", icon: dv("github/github-original.svg"), invertDark: true },
         { name: "Microservices", icon: dv("kubernetes/kubernetes-plain.svg") },
       ],
     },

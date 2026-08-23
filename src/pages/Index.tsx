@@ -1,5 +1,6 @@
 import { ArrowDownRight, ArrowUpRight, Github, Linkedin, Mail, Phone } from "lucide-react";
 import { useTranslation, Trans } from "react-i18next";
+import { cn } from "@/lib/utils";
 
 import profileImg from "@/assets/profile.jpg";
 import { Button } from "@/components/ui/button";
@@ -216,7 +217,10 @@ export default function Index() {
                           loading="lazy"
                           width={16}
                           height={16}
-                          className="size-4 opacity-80 transition-opacity group-hover:opacity-100"
+                          className={cn(
+                            "size-4 opacity-80 transition-opacity group-hover:opacity-100",
+                            skill.invertDark && "invert dark:invert"
+                          )}
                         />
                         <span className="font-mono text-xs text-muted-foreground transition-colors group-hover:text-foreground">
                           {skill.name}
