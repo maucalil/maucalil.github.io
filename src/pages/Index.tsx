@@ -104,10 +104,10 @@ export default function Index() {
                 </p>
                 <div className="flex flex-col gap-8">
                   <div className="min-w-0">
-                    <p className="font-mono text-base md:text-lg text-foreground">{t("hero.role")}</p>
-                    <p className="mt-1 text-sm text-muted-foreground">
-                      TypeScript · Node.js · GCP
+                    <p className="font-mono text-base md:text-lg text-foreground">
+                      {t("hero.role")}
                     </p>
+                    <p className="mt-1 text-sm text-muted-foreground">TypeScript · Node.js · GCP</p>
                   </div>
                   <div className="flex flex-col gap-4">
                     <div className="flex flex-wrap items-center gap-4">
