@@ -28,43 +28,41 @@ export function usePortfolioData() {
 
   const skillGroups: SkillGroup[] = [
     {
-      title: t("stack.groups.Back-end"),
+      title: t("stack.groups.Back"),
       skills: [
         { name: "Node.js", icon: dv("nodejs/nodejs-original.svg") },
-        { name: "TypeScript", icon: dv("typescript/typescript-original.svg") },
         { name: "Fastify", icon: dv("fastify/fastify-plain.svg"), invertDark: true },
         { name: "Express.js", icon: dv("express/express-original.svg"), invertDark: true },
-        { name: "NestJS", icon: dv("nestjs/nestjs-plain.svg") },
-        { name: "Java (Spring Boot)", icon: dv("spring/spring-original.svg") },
+        { name: "Java Spring Boot", icon: dv("spring/spring-original.svg") },
       ],
     },
     {
-      title: t("stack.groups.Tecnologias"),
+      title: t("stack.groups.Infrastructure"),
       skills: [
         { name: "GCP", icon: dv("googlecloud/googlecloud-original.svg") },
-        { name: "AWS", icon: dv("amazonwebservices/amazonwebservices-original-wordmark.svg") },
+        { name: "Docker", icon: dv("docker/docker-original.svg") },
+        { name: "PostgreSQL", icon: dv("postgresql/postgresql-original.svg") },
         { name: "Terraform", icon: dv("terraform/terraform-original.svg") },
         { name: "Pulumi", icon: dv("pulumi/pulumi-plain.svg") },
-        { name: "PostgreSQL", icon: dv("postgresql/postgresql-original.svg") },
         { name: "GitHub Actions", icon: dv("github/github-original.svg"), invertDark: true },
-        { name: "Microservices", icon: dv("kubernetes/kubernetes-plain.svg") },
       ],
     },
     {
-      title: t("stack.groups.Linguagens"),
-      skills: [
-        { name: "Python", icon: dv("python/python-original.svg") },
-        { name: "C", icon: dv("c/c-original.svg") },
-        { name: "C++", icon: dv("cplusplus/cplusplus-original.svg") },
-      ],
-    },
-    {
-      title: t("stack.groups.Front-end"),
+      title: t("stack.groups.Front"),
       skills: [
         { name: "React", icon: dv("react/react-original.svg") },
         { name: "Next.js", icon: dv("nextjs/nextjs-original.svg") },
         { name: "Tailwind CSS", icon: dv("tailwindcss/tailwindcss-original.svg") },
         { name: "Figma", icon: dv("figma/figma-original.svg") },
+      ],
+    },
+    {
+      title: t("stack.groups.Languages"),
+      skills: [
+        { name: "TypeScript", icon: dv("typescript/typescript-original.svg") },
+        { name: "Python", icon: dv("python/python-original.svg") },
+        { name: "C", icon: dv("c/c-original.svg") },
+        { name: "C++", icon: dv("cplusplus/cplusplus-original.svg") },
       ],
     },
   ];

@@ -28,12 +28,12 @@
     },
     "stack": {
       "title": "Stack",
-      "lead": "Ferramentas que uso no dia a dia, organizadas por camada.",
+      "lead": "Tecnologias que utilizo para construir e escalar sistemas.",
       "groups": {
-        "Linguagens": "Linguagens",
-        "Front-end": "Front-end",
-        "Back-end": "Back-end",
-        "Tecnologias": "Tecnologias & Cloud"
+        "Languages": "Linguagens",
+        "Front": "Front-end",
+        "Back": "Back-end",
+        "Infrastructure": "Infraestrutura & Cloud"
       }
     },
     "projects": {

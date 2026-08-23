@@ -28,12 +28,12 @@
     },
     "stack": {
       "title": "Stack",
-      "lead": "Tools I use daily, organized by layer.",
+      "lead": "Technologies I use to build and scale systems.",
       "groups": {
-        "Linguagens": "Languages",
-        "Front-end": "Front-end",
-        "Back-end": "Back-end",
-        "Tecnologias": "Technologies & Cloud"
+        "Languages": "Languages",
+        "Front": "Front-end",
+        "Back": "Back-end",
+        "Infrastructure": "Infrastructure & Cloud"
       }
     },
     "projects": {
